@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <button onclick="showGame('game1')">Game 1</button>
+        <button onclick="showGame('game2')">Game 2</button>
+    </nav>
+    <div id="game-container">
+        <!-- Game 1 -->
+        <div id="game1" class="game">
+            <iframe src="game1/index.html" frameborder="0"></iframe>
+        </div>
+        <!-- Game 2 -->
+        <div id="game2" class="game">
+            <iframe src="game2/index.html" frameborder="0"></iframe>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
